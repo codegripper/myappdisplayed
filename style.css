@@ -1,0 +1,48 @@
+body{
+  min-height: 600px;
+  border: 8px solid black;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+@media(max-width: 1024px){
+    body{
+        flex-wrap: wrap;
+    }
+  }
+
+  body {
+    min-width: fit-content;
+}
+
+
+
+@media (max-width: 1024px) {
+  .container {
+      width: 600px;
+  }
+}
+
+img {
+  max-width: 600px;
+  height: auto;
+}
+
+
+img {  
+  object-fit: cover;  
+  }
+
+section {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-block: 2rem;
+}
+  
+section {
+    margin-inline: auto;
+}
